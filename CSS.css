@@ -1,0 +1,219 @@
+EM {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+}
+
+h1#center {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+span1 {
+    color: blue;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-style: normal;
+}
+
+.jb-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+div.text1 {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+div.text1 p {
+    margin-top: -24px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+div.text2 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin-top: -24px;
+    text-align: center;
+    font-size: 24px;
+}
+
+div.text2 a:link {
+    color: white;
+}
+
+div.text2 a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+div.text2 a:hover {
+    color: yellow;
+}
+
+div.text2 a:active {
+    color: red;
+}
+
+div.text3 {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    margin-top: -24px;
+    text-align: center;
+    font-size: 24px;
+}
+
+div.text3 a:link {
+    color: white;
+}
+
+div.text3 a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+div.text3 a:hover {
+    color: yellow;
+}
+
+div.text3 a:active {
+    color: red;
+}
+
+div.text4 {
+    position: absolute;
+    top: 54%;
+    width: 100%;
+    margin-top: -24px;
+    text-align: center;
+    font-size: 24px;
+}
+
+div.text4 a:link {
+    color: white;
+}
+
+div.text4 a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+div.text4 a:hover {
+    color: yellow;
+}
+
+div.text4 a:active {
+    color: red;
+}
+
+body a:link {
+    color: black;
+}
+
+body a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+body a:hover {
+    color: yellow;
+}
+
+body a:active {
+    color: red;
+}
+
+.like-content {
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0 0;
+    padding: 40px 0 0;
+    font-size: 18px;
+    border-top: 10px dashed #eee;
+    text-align: center;
+}
+
+.like-content span {
+    color: #9d9da4;
+    font-family: monospace;
+}
+
+.like-content .btn-secondary {
+    display: block;
+    margin: 40px auto 0px;
+    text-align: center;
+    background: #ed2553;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    padding: 10px 17px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.like-content .btn-secondary:hover {
+    transform: translateY(-3px);
+}
+
+.like-content .btn-secondary .fa {
+    margin-right: 5px;
+}
+
+.animate-like {
+    animation-name: likeAnimation;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.65s;
+}
+
+@keyframes likeAnimation {
+    0% {
+        transform: scale(30);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+img,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
